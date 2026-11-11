@@ -123,11 +123,17 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- name: 15|🇹🇼 台湾｜02｜HiNet
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 6549
-  server: tw.ccwink.cc
-  skip-cert-verify: true
-  sni: baidu.com
-  type: anytls
+- cipher: aes-256-gcm
+  name: 15|🇮🇹 意大利|@ripaojiedian
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 15|🇮🇹 意大利2|@ripaojiedian
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  type: ss
   udp: true
