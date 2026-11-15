@@ -137,3 +137,11 @@ proxies:
   server: 202.50.253.27
   type: ss
   udp: true
+- name: 15|🇺🇸 美国5|@ripaojiedian
+  password: Mitivpn
+  port: 443
+  server: 151.101.110.219
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  udp: true
